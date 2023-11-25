@@ -23,7 +23,7 @@ const AboutSection = () => {
                         In addition to Software development my passions include dissecting malware,playing CTF's and Jiu-jitsu. 
                     </p>
                     <div>
-                        <button className='rounded-full py-2 px-5 shadow-xl mt-3 bg-red-600 text-white text-sm font-sans'>
+                        <button className='rounded-full py-2 px-4 shadow-xl mt-3 bg-red-600 text-neutral-100 font-semibold'>
                             <a href='/Ismail_Karouata.pdf' target='_blank' rel='noopener norefferer'>
                                 MyResume
                             </a>

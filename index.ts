@@ -15,7 +15,6 @@ import {
     cpp,
     java,
     rust,
-    airBnb
 } from './assets';
 
 //Navbar Items
@@ -120,13 +119,7 @@ interface ProjectItem{
 }
 
 const projects: Array<ProjectItem> = [
-    {
-        name: "MemPeak",
-        description: "A memory profiler written in Rust",
-        image: airBnb,
-        github: "github_link",
-        link: "web app link"
-    },
+    
 ]
 
 export { navbar_items,skills,projects };
