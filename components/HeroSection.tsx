@@ -20,7 +20,7 @@ const HeroSection = () => {
             </div>
             <div>
                 <h1 className='font-bold text-2xl'>Hi, I'm <strong className='text-red-500'>Ismail</strong></h1>
-                <p>A <span className='font-semibold text-red-500'>Future Software Engineer </span> 
+                <p>A <span className='font-semibold text-red-500'>Software Engineer </span> 
                     and Cyber Security enthusiast based in Casablanca,Morocco.  Mainly interested in 
                     Web Applications development/security and Malware Analysis.
                     I'm on the lookout for an internship opportunity to further improve my skills.
