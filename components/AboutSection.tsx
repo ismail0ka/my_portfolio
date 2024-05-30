@@ -20,7 +20,7 @@ const AboutSection = () => {
                         new things and sharpening my skills.<br/>
                     </p>
                     <p>
-                        In addition to Software development my passions include dissecting malware,playing CTF's and Jiu-jitsu. 
+                        In addition to Software development my passions include CTFs, dissecting malware and Jiu-jitsu. 
                     </p>
                     <div>
                         <button className='rounded-full py-2 px-4 shadow-xl mt-3 bg-red-600 text-neutral-100 font-semibold'>
@@ -33,10 +33,11 @@ const AboutSection = () => {
                 <div className='md:w-1/2'>
                     <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Skills</h1>
                     <div className="flex flex-row flex-wrap justify-center gap-10">
-                        {skills.map((skill) => (
+                        {skills.map((skill,index) => (
                         <div className="w-16 h-16 space-y-2">
                             <strong>{skill.name}</strong>
                             <Image 
+                                key={index}
                                 src={skill.icon}
                                 alt='technology'
                                 height={30} width={30}
