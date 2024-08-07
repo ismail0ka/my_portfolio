@@ -23,11 +23,10 @@ const HeroSection = () => {
                 <p>A <span className='font-semibold text-red-500'>Software Engineer </span> 
                     and Cyber Security enthusiast based in Casablanca,Morocco.  Mainly interested in 
                     Web Applications development/security and Malware Analysis.
-                    I'm on the lookout for an internship opportunity to further improve my skills.
                 </p>
             </div>
             <div className='my-5'>
-            <Link
+            {/*<Link
                     to='projects'
                     className='text-neutral-100 font-semibold py-2 px-6 rounded-full bg-red-600 hover:bg-red-500'
                     activeClass='active'
@@ -37,7 +36,7 @@ const HeroSection = () => {
                     duration={500}
                 >
                     Projects
-            </Link>
+            </Link>*/}
             </div>
             <div>
                 <Link

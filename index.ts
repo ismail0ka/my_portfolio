@@ -32,10 +32,10 @@ const navbar_items: Array<NavbarItem> = [
     label: 'About',
     page: 'about'
   },
-  {
+  /*{
     label: 'Projects',
     page: 'projects'
-  },
+  },*/
   {
     label: 'Writeups',
     page: 'writeups'
