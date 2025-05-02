@@ -26,17 +26,6 @@ const HeroSection = () => {
                 </p>
             </div>
             <div className='my-5'>
-            {/*<Link
-                    to='projects'
-                    className='text-neutral-100 font-semibold py-2 px-6 rounded-full bg-red-600 hover:bg-red-500'
-                    activeClass='active'
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                >
-                    Projects
-            </Link>*/}
             </div>
             <div>
                 <Link
@@ -47,7 +36,6 @@ const HeroSection = () => {
                     duration={500}
                     offset={-100}
                 >
-                    <HiArrowDown className='hover:scale-125 animate-pulse' size={35}/>
                 </Link>
             </div>
         </div>
