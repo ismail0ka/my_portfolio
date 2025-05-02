@@ -15,6 +15,8 @@ import {
     cpp,
     java,
     rust,
+    chatapp,
+    event_ticketing
 } from './assets';
 
 //Navbar Items
@@ -32,10 +34,10 @@ const navbar_items: Array<NavbarItem> = [
     label: 'About',
     page: 'about'
   },
-  /*{
+  {
     label: 'Projects',
     page: 'projects'
-  },*/
+  },
   {
     label: 'Writeups',
     page: 'writeups'
@@ -115,11 +117,22 @@ interface ProjectItem{
     description: string,
     image: StaticImageData,
     github: string,
-    link: string
+    link?: string
 }
 
 const projects: Array<ProjectItem> = [
-    
+    {
+        name: "Realtime Chat App",
+        description: "A realtime chat app built on Django.",
+        image: chatapp,
+        github: "https://github.com/ismail0ka/Django_realtime_chat",
+    },
+    {
+        name: "DEvent",
+        image: event_ticketing,
+        description: "A decentralized event ticketing platform where users can buy, sell, and transfer event tickets securely using blockchain technology.",
+        github: "https://github.com/ismail0ka/DEvent"
+    },
 ]
 
 export { navbar_items,skills,projects };

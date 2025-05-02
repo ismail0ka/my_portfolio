@@ -14,6 +14,8 @@ import cpp from './cpp.png'
 import java from './java.png'
 import rust from './rust.png'
 import airBnb from './airBnb.jpg'
+import chatapp from './chatapp.png'
+import event_ticketing from './event_ticketing.png'
 
 export {
     html,
@@ -31,5 +33,7 @@ export {
     cpp,
     java,
     rust,
-    airBnb
+    airBnb,
+    chatapp,
+    event_ticketing
 }
