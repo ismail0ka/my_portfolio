@@ -34,10 +34,9 @@ const AboutSection = () => {
                     <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Skills</h1>
                     <div className="flex flex-row flex-wrap justify-center gap-10">
                         {skills.map((skill,index) => (
-                        <div className="w-16 h-16 space-y-2">
+                        <div key={index} className="w-16 h-16 space-y-2">
                             <strong>{skill.name}</strong>
-                            <Image 
-                                key={index}
+                            <Image
                                 src={skill.icon}
                                 alt='technology'
                                 height={30} width={30}
